@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 8%;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1%;
+}
+
+#full-screen-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-top: -5%;
+  /* Ajuste do valor do margin-top da foto */
+}
+
+nav {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  z-index: 2;
+}
+
+nav .logo {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+}
+
+nav .logo img {
+  width: 60px;
+  height: auto;
+}
+
+nav .menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav .menu li {
+  margin: 0 15px;
+}
+
+nav .menu li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+nav .menu li a.active,
+nav .menu li a:hover {
+  border-bottom: 2px solid #5271FF;
+  border-radius: 0;
+}
+
+nav .social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav .social-icons li {
+  margin: 0 15px;
+}
