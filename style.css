@@ -260,3 +260,19 @@ footer .logo img {
   width: 60px;
   height: auto;
 }
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-text {
+  width: 50%;
+}
+
+.profile-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
