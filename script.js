@@ -20,3 +20,6 @@ const intervalo = setInterval(() => {
         texto.textContent = decodificado;
     }
 }, 75);
+
+
+  
