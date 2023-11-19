@@ -205,3 +205,58 @@ nav .social-icons li a i {
 .project-info a:hover {
   background-color: #4059ad;
 }
+
+footer {
+  background-color: #5271FF;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+footer .logo {
+  font-size: 35px;
+}
+
+footer .menu {
+  display: flex;
+  list-style: none;
+}
+
+footer .menu li {
+  margin: 0 15px;
+}
+
+footer .menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+footer .menu li a:hover {
+  color: #4059ad;
+}
+
+footer .social-icons {
+  display: flex;
+  list-style: none;
+}
+
+footer .social-icons li {
+  margin: 0 15px;
+}
+
+footer .social-icons li a i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+footer .logo img {
+  width: 60px;
+  height: auto;
+}
